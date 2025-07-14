@@ -2,7 +2,7 @@ function openEnvelope() {
   localStorage.setItem("shouldPlayMusic", "true");
   document.querySelector('.envelope-image-wrapper').style.opacity = 0;
   setTimeout(() => {
-    window.location.href = "index.html";
+    window.location.href = "invitation.html";
   }, 700);
 }
 
